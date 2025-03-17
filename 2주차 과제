@@ -1,4 +1,4 @@
-ef get_radius(prompt):
+def get_radius(prompt):
     r = int(input(prompt))
     return r
 
