@@ -25,7 +25,6 @@ def find(shopping_bag):
     else:
         print(f"장바구니에 {item}(는) 없습니다.\n")
 
-
 shopping_bag = {}
 while True:
     if buy(shopping_bag) == False:
